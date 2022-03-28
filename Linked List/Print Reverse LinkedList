@@ -53,8 +53,7 @@ public class Solution {
 		if (node == null)
 			return;
 		printReverse(node.next);
-		System.out.print(node.data + " ");
-		// return smallOutput;
+		System.out.print(node.data + " ");		
 	}
 
 }
